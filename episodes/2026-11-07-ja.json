@@ -1,0 +1,456 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-07",
+ "lang": "ja",
+ "title": "GTA VIまであと2週間、ゲームもPCも賑やかな一日",
+ "opening": [
+  {
+   "say": "ユーキラジオです。十一月七日、土曜日の朝です。",
+   "show": "yukiラジオです。11月7日、土曜日の朝です。"
+  },
+  {
+   "say": "今日は、ゲーム関連、ピーシー関連、日常、その他から、八本のニュースをお届けします。",
+   "show": "今日は、ゲーム関連、PC関連、日常、その他から、8本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "【ゲーム関連】GTA VI ローンチギャラリー公開",
+   "points": [
+    "11月19日発売予定",
+    "発売まであと2週間",
+    "公式サイトで新スクリーンショット公開"
+   ],
+   "url": "https://openworldnews.net/archives/1083859895.html",
+   "lines": [
+    {
+     "say": "まずはゲーム関連から。グランド・セフト・オート・シックスの話題です。",
+     "show": "まずはゲーム関連から。グランド・セフト・オートVIの話題です。"
+    },
+    {
+     "say": "十一月十九日の発売まであと二週間となり、公式サイトでローンチギャラリーが公開されました。",
+     "show": "11月19日の発売まであと2週間となり、公式サイトでローンチギャラリーが公開されました。"
+    },
+    {
+     "say": "新しいスクリーンショットで、バイスシティを探索できるそうです。",
+     "show": "新しいスクリーンショットで、バイスシティを探索できるそうです。"
+    }
+   ],
+   "link": {
+    "url": "https://openworldnews.net/archives/1083859895.html",
+    "title": "11/19発売予定『グランド・セフト・オートVI』発売まであと2週間！「ローンチ ギャラリー」が公式サイトにて公開",
+    "site": "PS5速報！",
+    "description": "11月19日発売予定の『グランド・セフト・オートVI』について、新たなスクリーンショット集が公式サイトで公開されました。",
+    "image": "https://livedoor.blogimg.jp/are13-kuroko/imgs/c/5/c5878647-s.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "【ゲーム関連】Switch2『スターフォックス』117万本",
+   "points": [
+    "Switch 2向けタイトル",
+    "販売本数117万本"
+   ],
+   "url": "https://switchsoku.com/soft/starfox/126352",
+   "lines": [
+    {
+     "say": "続いては、スイッチツーのスターフォックスです。",
+     "show": "続いては、Switch 2の『スターフォックス』です。"
+    },
+    {
+     "say": "販売本数は、百十七万本と伝えられています。",
+     "show": "販売本数は117万本と伝えられています。"
+    }
+   ],
+   "link": {
+    "url": "https://switchsoku.com/soft/starfox/126352",
+    "title": "Switch2『スターフォックス』117万本",
+    "site": "SWITCH速報",
+    "description": "Switch 2『スターフォックス』の販売本数に関する記事です。",
+    "image": "https://switchsoku.com/wp-content/uploads/2026/05/starfox.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "【PC関連】『AION2』推奨ゲーミングPC発売",
+   "points": [
+    "ツクモのG-GEARから3モデル",
+    "24万円台から"
+   ],
+   "url": "https://www.nichepcgamer.com/archives/post-133803.html",
+   "lines": [
+    {
+     "say": "ここからはピーシー関連です。アイオンツー推奨ゲーミングピーシーが、ツクモから発売されました。",
+     "show": "ここからはPC関連です。『AION2』推奨ゲーミングPCが、ツクモから発売されました。"
+    },
+    {
+     "say": "ツクモのビーティーオーブランド、ジーギアの三モデルで、価格は二十四万円台からです。",
+     "show": "ツクモのBTOブランド「G-GEAR」の3モデルで、価格は24万円台からです。"
+    }
+   ],
+   "link": {
+    "url": "https://www.nichepcgamer.com/archives/post-133803.html",
+    "title": "『AION2』推奨ゲーミングPCが発売。24万円台から。ツクモにて",
+    "site": "ニッチなPCゲーマーの環境構築Z",
+    "description": "ツクモは、BTOゲーミングPCブランド『G-GEAR』から、『AION2』推奨ゲーミングPCを発売しました。",
+    "image": "https://www.nichepcgamer.com/wp-content/uploads/2026/11/tu-aion2-top.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "【PC関連】AMD、Q4売上高でIntelを上回る見通し",
+   "points": [
+    "AMDの第4四半期の売上高",
+    "Intelを上回る見通し"
+   ],
+   "url": "http://blog.livedoor.jp/bluejay01-review/archives/63590809.html",
+   "lines": [
+    {
+     "say": "ピーシーパーツの話題です。エーエムディーの第四四半期の売上高が、インテルを上回る見通しだと話題になっています。",
+     "show": "PCパーツの話題です。AMDの第4四半期の売上高が、Intelを上回る見通しだと話題になっています。"
+    },
+    {
+     "say": "パーツメーカー同士の勢力図がどう変わるか、注目です。",
+     "show": "パーツメーカー同士の勢力図がどう変わるか、注目です。"
+    }
+   ],
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/news/2153898.html",
+    "title": "AMD、Q4売上高でIntelを上回る見通し。データセンター好調で170億ドル見込む",
+    "site": "PC Watch",
+    "description": "2026年第4四半期の売上高で、AMDがIntelを上回る見通しだ。データセンターが好調で、170億ドルを見込む。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2153/898/01.png",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "http://blog.livedoor.jp/bluejay01-review/archives/63590809.html"
+   }
+  },
+  {
+   "label": "【日常】年末調整の書き方ガイド後編",
+   "points": [
+    "生命保険料控除のサポートツール",
+    "扶養控除申告書は簡易版が使える場合も"
+   ],
+   "url": "https://internet.watch.impress.co.jp/docs/special/2154101.html",
+   "lines": [
+    {
+     "say": "日常の話題です。年末調整の書き方ガイドの後編が公開されました。",
+     "show": "日常の話題です。年末調整の書き方ガイドの後編が公開されました。"
+    },
+    {
+     "say": "生命保険料控除の面倒な計算を解消する、サポートツールが紹介されています。",
+     "show": "生命保険料控除の面倒な計算を解消する、サポートツールが紹介されています。"
+    },
+    {
+     "say": "扶養控除申告書は、簡易バージョンが使える場合もあるそうです。",
+     "show": "扶養控除申告書は、簡易バージョンが使える場合もあるそうです。"
+    }
+   ],
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/special/2154101.html",
+    "title": "年末調整の面倒な計算を解消、生命保険料控除の“サポートツール”が超便利！【2026年(令和8年分)年末調整の書き方ガイド 後編】",
+    "site": "INTERNET Watch",
+    "description": "後編では「令和8年分 給与所得者の保険料控除申告書」と「令和9年分 給与所得者の扶養控除等（異動）申告書」の記入手順を具体的に見ていきます。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2154/101/rss.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "【日常】日本の『過労死』ハリウッド映画化",
+   "points": [
+    "日本の『過労死』が題材",
+    "ハリウッド映画化と報道"
+   ],
+   "url": "https://jin115.com/archives/52462076.html",
+   "lines": [
+    {
+     "say": "続いても日常、というより社会の話題です。日本の過労死が、ハリウッドで映画化されると伝えられています。",
+     "show": "続いても日常、というより社会の話題です。日本の『過労死』がハリウッドで映画化されると伝えられています。"
+    },
+    {
+     "say": "日本の働き方をめぐる言葉が、海を越えて映画になるのは驚きです。",
+     "show": "日本の働き方をめぐる言葉が、海を越えて映画になるのは驚きです。"
+    }
+   ],
+   "link": {
+    "url": "https://jin115.com/archives/52462076.html",
+    "title": "日本の『過労死』、まさかのハリウッド映画化",
+    "site": "オレ的ゲーム速報＠刃",
+    "description": null,
+    "image": "https://livedoor.blogimg.jp/jin115/imgs/0/2/02810660.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "【その他】Office 365 A1、2028年に廃止",
+   "points": [
+    "教育機関が無料で使ってきたプラン",
+    "2028年1月1日に廃止"
+   ],
+   "url": "http://blog.esuteru.com/archives/10584081.html",
+   "lines": [
+    {
+     "say": "その他の話題です。マイクロソフトが、教育機関が無料で使ってきたオフィス・サンロクゴ・エーワンを、二千二十八年一月一日に廃止すると伝えられています。",
+     "show": "その他の話題です。マイクロソフトが、教育機関が無料で使ってきたOffice 365 A1を、2028年1月1日に廃止すると伝えられています。"
+    },
+    {
+     "say": "全国の大学への影響が、話題になっています。",
+     "show": "全国の大学への影響が、話題になっています。"
+    }
+   ],
+   "link": {
+    "url": "https://learn.microsoft.com/en-us/training/educator-center/instructor-materials/microsoft-365-education-portfolio",
+    "title": "Microsoft 365 Education portfolio evolution",
+    "site": "Microsoft Learn",
+    "description": "Microsoftは2026年11月5日にMicrosoft 365 Educationの再編を発表。Office 365 A1は2028年1月1日に廃止される。",
+    "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "http://blog.esuteru.com/archives/10584081.html"
+   }
+  },
+  {
+   "label": "【その他】キオクシア株が大暴落",
+   "points": [
+    "わずか4営業日で約37％下落",
+    "投資家の投稿が話題に"
+   ],
+   "url": "http://otakomu.jp/archives/40953902.html",
+   "lines": [
+    {
+     "say": "最後は株式の話題です。キオクシアの株が大暴落し、わずか四営業日で約三十七パーセント下落したと伝えられています。",
+     "show": "最後は株式の話題です。キオクシア株が大暴落し、わずか4営業日で約37％下落したと伝えられています。"
+    },
+    {
+     "say": "借金や追証に苦しむ投資家の投稿が、話題になっているそうです。",
+     "show": "借金や追証に苦しむ投資家の投稿が、話題になっているそうです。"
+    }
+   ],
+   "link": {
+    "url": "https://minkabu.jp/stock/285A/news/4650608",
+    "title": "キオクシアが大幅４日続落し再び１万円割れ、米中間選挙経てＡＩ・半導体関連への売り圧力が続く",
+    "site": "みんかぶ",
+    "description": "キオクシアホールディングスが大幅に4日続落し、再び1万円を割り込んだ。AI・半導体関連株への売り圧力が続いている。",
+    "image": "https://prod-public-assets-minkabu.s3.ap-northeast-1.amazonaws.com/news/article_media_content/urn%3Anewsml%3Aminkabu.jp%3A20261105%3A8e592197870e53f4d17a27d65b7e1fbb/5123.jpg",
+    "icon": null,
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "http://otakomu.jp/archives/40953902.html"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日のニュースは以上です。気になる記事は、番組のリンクから元の記事を読んでみてください。",
+   "show": "今日のニュースは以上です。気になる記事は、番組のリンクから元の記事を読んでみてください。"
+  },
+  {
+   "say": "それでは、良い一日を。",
+   "show": "それでは、良い一日を。"
+  }
+ ],
+ "highlight": 0,
+ "made_at": "2026-11-07T03:45:00+09:00",
+ "seconds": 120.89,
+ "lines_timed": [
+  {
+   "start": 0.0,
+   "end": 4.51,
+   "show": "yukiラジオです。11月7日、土曜日の朝です。",
+   "part": "opening"
+  },
+  {
+   "start": 4.51,
+   "end": 11.11,
+   "show": "今日は、ゲーム関連、PC関連、日常、その他から、8本のニュースをお届けします。",
+   "part": "opening"
+  },
+  {
+   "start": 11.11,
+   "end": 15.0,
+   "show": "まずはゲーム関連から。グランド・セフト・オートVIの話題です。",
+   "part": "news-0"
+  },
+  {
+   "start": 15.0,
+   "end": 21.07,
+   "show": "11月19日の発売まであと2週間となり、公式サイトでローンチギャラリーが公開されました。",
+   "part": "news-0"
+  },
+  {
+   "start": 21.07,
+   "end": 24.5,
+   "show": "新しいスクリーンショットで、バイスシティを探索できるそうです。",
+   "part": "news-0"
+  },
+  {
+   "start": 24.5,
+   "end": 28.46,
+   "show": "続いては、Switch 2の『スターフォックス』です。",
+   "part": "news-1"
+  },
+  {
+   "start": 28.46,
+   "end": 32.47,
+   "show": "販売本数は117万本と伝えられています。",
+   "part": "news-1"
+  },
+  {
+   "start": 32.47,
+   "end": 39.07,
+   "show": "ここからはPC関連です。『AION2』推奨ゲーミングPCが、ツクモから発売されました。",
+   "part": "news-2"
+  },
+  {
+   "start": 39.07,
+   "end": 44.64,
+   "show": "ツクモのBTOブランド「G-GEAR」の3モデルで、価格は24万円台からです。",
+   "part": "news-2"
+  },
+  {
+   "start": 44.64,
+   "end": 52.49,
+   "show": "PCパーツの話題です。AMDの第4四半期の売上高が、Intelを上回る見通しだと話題になっています。",
+   "part": "news-3"
+  },
+  {
+   "start": 52.49,
+   "end": 57.24,
+   "show": "パーツメーカー同士の勢力図がどう変わるか、注目です。",
+   "part": "news-3"
+  },
+  {
+   "start": 57.24,
+   "end": 61.75,
+   "show": "日常の話題です。年末調整の書き方ガイドの後編が公開されました。",
+   "part": "news-4"
+  },
+  {
+   "start": 61.75,
+   "end": 67.68,
+   "show": "生命保険料控除の面倒な計算を解消する、サポートツールが紹介されています。",
+   "part": "news-4"
+  },
+  {
+   "start": 67.68,
+   "end": 72.41,
+   "show": "扶養控除申告書は、簡易バージョンが使える場合もあるそうです。",
+   "part": "news-4"
+  },
+  {
+   "start": 72.41,
+   "end": 80.4,
+   "show": "続いても日常、というより社会の話題です。日本の『過労死』がハリウッドで映画化されると伝えられています。",
+   "part": "news-5"
+  },
+  {
+   "start": 80.4,
+   "end": 85.39,
+   "show": "日本の働き方をめぐる言葉が、海を越えて映画になるのは驚きです。",
+   "part": "news-5"
+  },
+  {
+   "start": 85.39,
+   "end": 96.96,
+   "show": "その他の話題です。マイクロソフトが、教育機関が無料で使ってきたOffice 365 A1を、2028年1月1日に廃止すると伝えられています。",
+   "part": "news-6"
+  },
+  {
+   "start": 96.96,
+   "end": 100.85,
+   "show": "全国の大学への影響が、話題になっています。",
+   "part": "news-6"
+  },
+  {
+   "start": 100.85,
+   "end": 109.18,
+   "show": "最後は株式の話題です。キオクシア株が大暴落し、わずか4営業日で約37％下落したと伝えられています。",
+   "part": "news-7"
+  },
+  {
+   "start": 109.18,
+   "end": 113.9,
+   "show": "借金や追証に苦しむ投資家の投稿が、話題になっているそうです。",
+   "part": "news-7"
+  },
+  {
+   "start": 113.9,
+   "end": 119.14,
+   "show": "今日のニュースは以上です。気になる記事は、番組のリンクから元の記事を読んでみてください。",
+   "part": "closing"
+  },
+  {
+   "start": 119.14,
+   "end": 120.89,
+   "show": "それでは、良い一日を。",
+   "part": "closing"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": 0,
+   "start": 0.0,
+   "end": 11.11
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.11,
+   "end": 24.5
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.5,
+   "end": 32.47
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 32.47,
+   "end": 44.64
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 44.64,
+   "end": 57.24
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 57.24,
+   "end": 72.41
+  },
+  {
+   "kind": "news",
+   "index": 5,
+   "start": 72.41,
+   "end": 85.39
+  },
+  {
+   "kind": "news",
+   "index": 6,
+   "start": 85.39,
+   "end": 100.85
+  },
+  {
+   "kind": "news",
+   "index": 7,
+   "start": 100.85,
+   "end": 113.9
+  },
+  {
+   "kind": "closing",
+   "index": 0,
+   "start": 113.9,
+   "end": 120.89
+  }
+ ]
+}

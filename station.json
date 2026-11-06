@@ -1,0 +1,33 @@
+{
+ "format": "myradio/station-1",
+ "name": "yukiラジオ",
+ "description": "ゲーム関連、PC関連、日常、その他から、きのうの気になるニュースを毎朝お届けします。",
+ "tagline": "ゲーム・PC・日常 朝のニュース",
+ "logo": null,
+ "url": "https://yukibrave.github.io/yuki-radio/",
+ "repo": "https://github.com/yukibrave/yuki-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "07:00",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです"
+ },
+ "credits": [
+  "声：AI音声（ミューズ）"
+ ],
+ "caster": "声：AI音声",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "weather": true
+}
