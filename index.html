@@ -79,12 +79,12 @@ main{max-width:1280px;margin:0 auto;padding:16px}
 @keyframes blink{50%{opacity:.25}}
 /* left panel */
 /* the table of contents on the left edge: one number per topic, the current one lit; click to jump there */
-#toc{left:34px;top:150px;width:68px;display:flex;flex-direction:column;gap:14px}
+#toc{left:34px;top:150px;width:68px;display:flex;flex-direction:column;gap:10px}
 #toc{transition:width .45s cubic-bezier(.2,.8,.2,1)}
-#toc button{display:flex;align-items:center;gap:18px;height:68px;border:2px solid var(--line);border-radius:12px;background:rgba(22,25,35,.82);
-  color:var(--muted);font:700 28px var(--mono);cursor:pointer;padding:0 0 0 17px;overflow:hidden;white-space:nowrap;text-align:left;
+#toc button{display:flex;align-items:center;gap:18px;height:54px;border:2px solid var(--line);border-radius:12px;background:rgba(22,25,35,.82);
+  color:var(--muted);font:700 24px var(--mono);cursor:pointer;padding:0 0 0 15px;overflow:hidden;white-space:nowrap;text-align:left;
   transition:background .2s,color .2s,border-color .2s}
-#toc button span{font:700 30px var(--jp);opacity:0;transition:opacity .25s}
+#toc button span{font:700 26px var(--jp);opacity:0;transition:opacity .25s}
 #toc button:hover{border-color:var(--yellow);color:var(--yellow)}
 #toc button.cur{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
 #panel li[data-seg]{cursor:pointer}
