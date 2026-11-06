@@ -22,9 +22,10 @@
   "note": "AIで生成したキャラクターです"
  },
  "credits": [
-  "声：AI音声（ミューズ）"
+  "声：COEIROINK:リリンちゃん",
+  "無料AIトークソフトCOEIROINK（https://coeiroink.com）"
  ],
- "caster": "声：AI音声",
+ "caster": "声：COEIROINK:リリンちゃん",
  "audio": {
   "dir": "audio",
   "keep_days": 30
