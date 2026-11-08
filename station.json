@@ -1,8 +1,8 @@
 {
  "format": "myradio/station-1",
  "name": "yukiラジオ",
- "description": "ゲーム関連、PC関連、日常、その他から、きのうの気になるニュースを毎朝お届けします。",
- "tagline": "ゲーム・PC・日常 朝のニュース",
+ "description": "ゲーム・AI・主要ニュースから、普段見ない分野まで。きのうの気になる話題を毎朝6分でお届けします。",
+ "tagline": "ゲーム・AI・福祉まで、きのうの気になるニュース",
  "logo": null,
  "url": "https://yukibrave.github.io/yuki-radio/",
  "repo": "https://github.com/yukibrave/yuki-radio",
