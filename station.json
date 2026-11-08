@@ -2,7 +2,7 @@
  "format": "myradio/station-1",
  "name": "yukiラジオ",
  "description": "ゲーム・AI・主要ニュースから、普段見ない分野まで。きのうの気になる話題を毎朝6分でお届けします。",
- "tagline": "ゲーム・AI・福祉まで、きのうの気になるニュース",
+ "tagline": "普段見ない話題も、毎朝6分で",
  "logo": null,
  "url": "https://yukibrave.github.io/yuki-radio/",
  "repo": "https://github.com/yukibrave/yuki-radio",
