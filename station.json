@@ -1,8 +1,8 @@
 {
  "format": "myradio/station-1",
  "name": "yukiラジオ",
- "description": "ゲーム・AI・主要ニュースから、普段見ない分野まで。きのうの気になる話題を毎朝6分でお届けします。",
- "tagline": "普段見ない話題も、毎朝6分で",
+ "description": "ゲーム・AI・主要ニュースから、普段見ない分野まで。今日の気になる話題を毎晩6分で振り返り、明日の東京の天気もお届けします。",
+ "tagline": "普段見ない話題も、毎晩6分で",
  "logo": null,
  "url": "https://yukibrave.github.io/yuki-radio/",
  "repo": "https://github.com/yukibrave/yuki-radio",
@@ -12,7 +12,7 @@
  ],
  "schedule": {
   "every": "day",
-  "time": "07:00",
+  "time": "23:00",
   "timezone": "Asia/Tokyo"
  },
  "episodes": "episodes.json",
