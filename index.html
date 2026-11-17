@@ -156,7 +156,7 @@ main{max-width:1280px;margin:0 auto;padding:16px}
 #cam{left:992px;top:150px;width:896px;height:768px;background:var(--cam);border-radius:6px;
   transition:left .6s cubic-bezier(.2,.8,.2,1),top .6s cubic-bezier(.2,.8,.2,1),width .6s cubic-bezier(.2,.8,.2,1),height .6s cubic-bezier(.2,.8,.2,1)}
 .has-card #cam{left:1411px;top:530px;width:477px;height:409px}
-/* today's weather, in the room left of her small camera (while a news item shows its link card); a click: the viewer's own area */
+/* tomorrow's weather, in the room left of her small camera (while a news item shows its link card); a click: the viewer's own area */
 #wx{left:992px;top:530px;width:395px;height:409px;padding:26px 28px 20px;text-align:left;cursor:default;
   background:rgba(22,25,35,.82);border:1px solid var(--line);border-radius:14px;color:var(--text);font-family:var(--jp);
   opacity:0;pointer-events:none;transform:translateY(14px);transition:opacity .45s,transform .45s cubic-bezier(.2,.8,.2,1),border-color .2s}
@@ -491,11 +491,11 @@ const WEEK = "日月火水木金土";
 // says per date which exist ({date, ja: {title, seconds}, en: {...}}). The older one-language list ({date, title,
 // seconds} with episodes/<date>.json) still works. The words of the page itself are below.
 const UI = {
-  ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "記事をひらく ↗",
+  ja: { share: "共有", copied: "コピーしました", resumeAt: t => `${t} から続きを再生`, from0: "最初から", heard: "聞いた", partway: t => `途中 ${t}`, rate: "再生速度", wxHere: "現在地", wxCredit: "天気：Open-Meteo（CC BY 4.0）", wxNoGeo: "位置情報が使えませんでした", wxPrompt: "右上から場所を選ぶと、天気が出ます", wxChoose: "場所を選ぶ", wxUseHere: "現在地にする", wxJapan: "日本", wxWorld: "世界", wxHi: "最高", wxLo: "最低", wxRain: "降水", wxTomorrow: "明日", copyHint: "押すとコピー", native: "共有…", copyLink: "リンクをコピー", copyEmbed: "埋め込みコードをコピー", openPage: "ページを開く", news: "ニュース", none: "詳細なし", jump: "この話題へ", bye: "またあした！", related: "関連記事", open: "記事をひらく ↗",
         notFound: c => `リンク先が見つかりませんでした（${c}）`, source: "出典", script: "台本を読む", past: "これまでの放送", talk: "コメント", talkNote: "書きこむには GitHub のアカウントが要ります。コメントは GitHub Discussions に保存され、ここは giscus.app から読みこんでいます。",
         expired: "この回の音声は公開が終わりました（台本は下で読めます）", loading: "読み込み中…", empty: "まだ放送がありません",
         muted: "音声オフ・クリックでオン", sep: "・", colon: "：" },
-  en: { share: "Share", copied: "Copied", resumeAt: t => `Resume from ${t}`, from0: "Start over", heard: "Heard", partway: t => `Stopped at ${t}`, rate: "Playback speed", wxHere: "Your area", wxCredit: "Weather: Open-Meteo (CC BY 4.0)", wxNoGeo: "Location not available", wxPrompt: "Choose a place (top right) to see its weather", wxChoose: "Choose", wxUseHere: "Use my location", wxJapan: "Japan", wxWorld: "World", wxHi: "H", wxLo: "L", wxRain: "Rain", copyHint: "Click to copy", native: "Share…", copyLink: "Copy link", copyEmbed: "Copy embed code", openPage: "Open the page", news: "News", none: "No details", jump: "Go to this story", bye: "See you tomorrow!", related: "Related", open: "Open article ↗",
+  en: { share: "Share", copied: "Copied", resumeAt: t => `Resume from ${t}`, from0: "Start over", heard: "Heard", partway: t => `Stopped at ${t}`, rate: "Playback speed", wxHere: "Your area", wxCredit: "Weather: Open-Meteo (CC BY 4.0)", wxNoGeo: "Location not available", wxPrompt: "Choose a place (top right) to see its weather", wxChoose: "Choose", wxUseHere: "Use my location", wxJapan: "Japan", wxWorld: "World", wxHi: "H", wxLo: "L", wxRain: "Rain", wxTomorrow: "Tomorrow", copyHint: "Click to copy", native: "Share…", copyLink: "Copy link", copyEmbed: "Copy embed code", openPage: "Open the page", news: "News", none: "No details", jump: "Go to this story", bye: "See you tomorrow!", related: "Related", open: "Open article ↗",
         notFound: c => `Link not found (${c})`, source: "Source", script: "Read the script", past: "Past episodes", talk: "Comments", talkNote: "You need a GitHub account to comment. Comments are kept in GitHub Discussions, and this part loads from giscus.app.",
         expired: "This episode's audio is no longer available (the script is below)", loading: "Loading…", empty: "No episodes yet",
         muted: "Sound off · click to turn on", sep: " · ", colon: ": " },
@@ -1125,7 +1125,7 @@ $("langsw").onclick = e => {
   const playing = !audio.paused;
   audio.pause(); load(ep.date, b.dataset.lang, at).then(() => { if (playing) audio.play().catch(() => {}); });
 };
-// ---------- today's weather (station.json "weather": true) ----------
+// ---------- tomorrow's weather (station.json "weather": true) ----------
 // where: a city guessed from the browser's time zone, until the viewer picks a city or their own area from the list
 // (the browser asks for the location only then; the choice is kept in this browser). Forecast: Open-Meteo (no key; CC BY 4.0, credited)
 const WX_CITY = [   // [id, lat, lon, ja, en, the time zone it stands for (the first guess)]
@@ -1179,8 +1179,8 @@ async function wxLoad() {
   if (!STATION.weather) return;
   WX.place = wxPlace(); $("wx").hidden = false;
   if (WX.place) {
-    const q = `latitude=${WX.place.lat}&longitude=${WX.place.lon}&timezone=auto&forecast_days=1&forecast_hours=13`
-      + "&current=temperature_2m,weather_code,is_day&hourly=temperature_2m,weather_code,is_day"
+    const q = `latitude=${WX.place.lat}&longitude=${WX.place.lon}&timezone=auto&forecast_days=2`
+      + "&hourly=temperature_2m,weather_code,is_day"
       + "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max";
     try { WX.data = await (await fetch("https://api.open-meteo.com/v1/forecast?" + q)).json(); WX.at = Date.now(); } catch { WX.data = null; }
   }
@@ -1193,16 +1193,16 @@ function wxRender() {
   const head = `<div class="hd">WEATHER<button class="place" aria-haspopup="listbox" aria-expanded="${$("wx").classList.contains("open")}" aria-controls="wxlist"><span>${esc(place)}</span><i></i></button></div>`;
   const foot = `<div class="ft"><span>${WX.msg ? `<i>${WX.msg}</i>` : ""}</span><span>Open-Meteo</span></div>`;
   wxList();
-  if (!d?.current) { el.innerHTML = `${head}<div class="msg">${tr("wxPrompt")}</div>${foot}`; return; }
-  const now = wxKind(d.current.weather_code, d.current.is_day), r = n => Math.round(n), dl = d.daily;
-  const hrs = [3, 6, 9, 12].filter(i => d.hourly?.time?.[i]).map(i => {
+  if (!d?.daily?.time?.[1]) { el.innerHTML = `${head}<div class="msg">${tr("wxPrompt")}</div>${foot}`; return; }
+  const tom = wxKind(d.daily.weather_code[1], 1), r = n => Math.round(n), dl = d.daily;
+  const hrs = [9, 12, 15, 18].map(h => 24 + h).filter(i => d.hourly?.time?.[i]).map(i => {
     const k = wxKind(d.hourly.weather_code[i], d.hourly.is_day[i]);
     return `<div><span>${d.hourly.time[i].slice(11, 16)}</span>${k.icon}${r(d.hourly.temperature_2m[i])}°</div>`;
   }).join("");
   el.innerHTML = `${head}
-    <div class="now">${now.icon}<div><div class="t">${r(d.current.temperature_2m)}<small>°C</small></div><div class="c">${now.words}</div></div></div>
-    <div class="hl"><span>${tr("wxHi")} <em class="hi">${r(dl.temperature_2m_max[0])}°</em></span><span>${tr("wxLo")} <em class="lo">${r(dl.temperature_2m_min[0])}°</em></span>${
-      dl.precipitation_probability_max?.[0] != null ? `<span>${tr("wxRain")} <em>${dl.precipitation_probability_max[0]}%</em></span>` : ""}</div>
+    <div class="now">${tom.icon}<div><div class="t">${r(dl.temperature_2m_max[1])}<small>°C</small></div><div class="c">${tr("wxTomorrow")} · ${tom.words}</div></div></div>
+    <div class="hl"><span>${tr("wxHi")} <em class="hi">${r(dl.temperature_2m_max[1])}°</em></span><span>${tr("wxLo")} <em class="lo">${r(dl.temperature_2m_min[1])}°</em></span>${
+      dl.precipitation_probability_max?.[1] != null ? `<span>${tr("wxRain")} <em>${dl.precipitation_probability_max[1]}%</em></span>` : ""}</div>
     <div class="hrs">${hrs}</div>${foot}`;
 }
 // the place list: "your area" first (only then does the browser ask for the location), then the cities
